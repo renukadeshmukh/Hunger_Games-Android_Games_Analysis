@@ -1,0 +1,190 @@
+======TRACE SUMMARY=========
+Date:Mar 31 2015 12:50:31 AM
+Trace:2048_NoInternet_ScreenOn
+Application(s) Name : Version:,Unknown App
+,
+Data Collector Version:1.0.0.1
+Device Make/Model:HTC / HTC One
+OS/Platform Version:5.0.2
+Network Type(s):WIFI
+Profile:AT&T 3G
+HTTPS data not analyzed:,50%,(0.1 KB)
+Duration:,5.3,Minutes
+Total Data Transferred: ,208,Bytes
+Energy Consumed:,220.3,J (Energy)
+Trace Score,
+Causes:,312
+Effects:,187
+Total:,499
+IP Packet Count:,4
+Avg Rate (kbps):,832.1
+
+==========BEST PRACTICES==========
+"Text File Compression","Pass"
+,"0","text file(s) above 850 bytes were sent without compression"
+,"0","kB of text files were sent without compression"
+"Duplicate Content","Pass"
+,"0","% duplicated TCP content"
+,"0","files"
+,"0","MBytes"
+"Cache Control","Pass"
+,"0","% of files missing cache headers"
+"Content Expiration","Pass"
+,"0","files downloaded multiple times while ""not expired"""
+,"0","files cached and 304 returned from server"
+"Content Pre-fetching","Pass"
+
+"Combine JS and CSS Requests","Pass"
+,"0","count of inefficient Css requests"
+,"0","count of inefficient Js requests"
+"Resize Images for Mobile","Pass"
+,"0","images larger than the area specified for them"
+"Minify CSS, JS, JSON and HTML","Pass"
+,"0","files to minify"
+"Use CSS Sprites for Images","Pass"
+,"0","Image file groups to be used a sprite"
+"Connection Opening","Self Test"
+
+"Unnecessary Connections - Multiple Simultaneous Connections","Pass"
+,"0","count of bursts more tightly grouped"
+"Inefficient Connections - Periodic Transfers","Pass"
+,"0","connections"
+,"0","# of repeats"
+,"0.0","s period of repeat"
+"Inefficient Connections - Screen Rotation","Pass"
+,"0","count of screen rotations"
+"Inefficient Connections - Connection Closing Problems","Fail"
+,"9.5","joules was used to control these connections"
+"Inefficient Connections - Offloading to WiFi when Possible","Pass"
+,"0","number of large bursts"
+"400, 500 HTTP Status Response Codes","Pass"
+
+"301, 302 HTTP Status Response Codes","Pass"
+
+"3rd Party Scripts","Pass"
+,"0","3rd party script files"
+"Asynchronous Load of JavaScript in HTML","Pass"
+,"0","HTML files that uses synchronous load of JavaScript in the HEAD."
+"HTTP 1.0 Usage","Pass"
+,"0","count of HTTP 1.0 headers"
+"File Order","Pass"
+,"0","HTML files which have JS loaded before CSS in the HEAD."
+"Empty Source and Link Attributes","Pass"
+,"0","empty HTML tag files"
+"FLASH","Pass"
+,"0","flash files"
+"""display:none"" in CSS","Pass"
+,"0","files with ""display:none"" CSS rule"
+"Accessing Peripheral Applications","Pass"
+,"0","% GPS"
+,"0","% Bluetooth"
+,"0","% Camera"
+
+============FILE TYPES=========
+,% of Data Transfer,Bytes
+
+============TRACE BENCHMARKING=========
+,Value,Percentile
+Avg Rate: (kbps),832.0603071053886,100.0
+Energy Efficiency: (J/kb),45.67307692307693,0.0
+Signaling Overhead:,1000.072484501669,0.0
+
+============CONNECTION STATISTICS============
+Proper session termination,100.0%
+Tightly grouped connection,0.0%
+Non-Periodic Burst connection,100.0%
+Large Burst connection,0.0%
+
+===== Trace Score =====
+Causes,
+Cache Control:,75,(out of 75)
+Connection Closing Problems:,37,(out of 75)
+Tightly Grouped Connections:,0,(out of 150)
+Periodic Transfers:,150,(out of 150)
+Content Expiration:,50,(out of 50)
+Cause Sub-total:,312,(out of 500)
+Effects,
+Duplicate Content:,125,(out of 125)
+Signaling Overhead:,0,(out of 125)
+Average Rate (kb/s):,62,(out of 62.5)
+Energy Efficiency (J/kb):,0,(out of 187.5)
+Effects Sub-total:,187,(out of 500)
+Total Score,499,(out of 1000)
+
+===== Endpoint Summary Per Application =====
+"Application Name","Packet Count","Total Bytes"
+"Unknown App","4","208"
+
+
+===== Endpoint Summary Per IP Address =====
+"IP Address","Packet Count","Total Bytes"
+"216.58.216.74","2","104"
+"75.126.194.100","2","104"
+
+
+===== RRC State Machine Simulation =====
+DCH (Active):,4.00 ,S,1.25%
+FACH (Standby):,10.00 ,S,3.12%
+IDLE:,304.95 ,S,95.01%
+IDLE->DCH (Active):,2.00 ,S,0.62%
+FACH (Standby)->DCH (Active):,0.00 ,S,0.00%
+DCH (Active) Tail Ratio:,1.00
+FACH (Standby) Tail Ratio:,1.00
+Promotion Ratio:,1000.07
+
+
+===== Burst Analysis =====
+"Burst","Bytes","% of Bytes","Energy","% of Energy","DCH (Active)","% DCH (Active)","JpKB"
+"TcpControl","0","0.0","9.5","100.0","4.0","100.0","0.0"
+
+===== Individual Burst Analysis =====
+"Start Time","Time Elapsed","Bytes","Packet Count","Burst"
+"0.1940000057220459","0.0019998550415039062","0","4","TcpControl"
+
+
+----------- Cacheable vs. non-cacheable ------------,%responses,%bytes,
+Cacheable:,0.0,0.0,
+Specified - No Store:,0.0,0.0,
+
+
+----------- Cache simulation results ------------,,
+----------- Acceptable Behavior ------------,,
+Files downloaded once:,0.0,0.0,
+Files specified as "No-Store":,0.0,0.0,
+Expired but correct 304 response sent from server:,0.0,0.0,
+Expired downloaded again but file has changed:,0.0,0.0,
+----------- Duplicate File Download ------------,,
+Duplicate download (not expired):,0.0,0.0,
+Duplicate download (expired but no "If-Modified-Since" header sent):,0.0,0.0,
+Duplicate download (expired but "If-Modified-Since" header ignored):,0.0,0.0,
+-------------- Duplicate File Download: Streaming------------------,,
+Partial duplicate download (Not Expired):,0.0,0.0,
+Partial duplicate download (expired but no "If-Modified-Since" header sent):,0.0,0.0,
+Partial duplicate download (expired but "If-Modified-Since" header ignored):,0.0,0.0,
+
+
+----------- Duplicate File Analysis------------,,
+Duplicate download (Cache not expired):,0.0,0.0,
+Duplicate download (24 hr cache not expired):,0.0,0.0,
+Duplicate download (Cache expired):,0.0,0.0,
+Duplicate download (24 hr cache expired):,0.0,0.0,
+
+
+===== Energy Efficiency Simulation =====
+DCH (Active):,5.20 ,J
+FACH (Standby):,3.00 ,J
+IDLE:,0.00 ,J
+IDLE->DCH (Active):,1.30 ,J
+FACH (Standby)->DCH (Active):,0.00 ,J
+DCH (Active) Tail:,5.20 ,J
+FACH (Standby) Tail:,3.00 ,J
+Total RRC Energy:,9.50 ,J
+Joules per Kilobyte:,45.67
+GPS Active:,0.00 ,J
+GPS Standby:,6.41 ,J
+Total GPS Energy:,6.41 ,J
+Total Camera Energy:,0.00 ,J
+Bluetooth Active:,0.00 ,J
+Bluetooth Standby:,0.00 ,J
+Total Bluetooth Energy:,0.00 ,J
+Total Screen Energy:,204.43 ,J
