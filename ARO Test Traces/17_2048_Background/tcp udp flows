@@ -1,0 +1,7 @@
+"Time","","Application","Domain Name","Local Port","Remote IP Endpoint","Remote Port Number","Byte Count","Packet Count","TCP/UDP"
+"4.955999851226807","true","Unknown App","ads.mopub.com","local:46341","75.75.75.75","53","112","1","UDP"
+"181.06900000572205","true","Unknown App","mtalk.google.com","local:13440","75.75.75.75","53","91","1","UDP"
+"181.16899991035461","true","Unknown App","mtalk.google.com","local:17646","75.75.75.75","53","79","1","UDP"
+"5.1579999923706055","true","Unknown App","ads.mopub.com","local:44233","192.44.68.3","80","11132","30","TCP"
+"169.90199995040894","true","Unknown App","173.194.196.188","local:45556","173.194.196.188","5228","611","14","TCP"
+"494.75300002098083","true","Unknown App","mtalk.google.com","local:59417","173.194.192.188","5228","7267","33","TCP"
