@@ -1,0 +1,253 @@
+======TRACE SUMMARY=========
+Date:May 2 2015 4:33:54 PM
+Trace:2048_LTE_GamePlay
+Application(s) Name : Version:,Unknown App
+,
+Data Collector Version:1.0.0.1
+Device Make/Model:HTC / HTC One
+OS/Platform Version:5.0.2
+Network Type(s):LTE 
+Profile:AT&T LTE
+HTTPS data not analyzed:,87.76%,(215.74 KB)
+Duration:,7.0,Minutes
+Total Data Transferred: ,251736,Bytes
+Energy Consumed:,584.8,J (Energy)
+Trace Score,
+Causes:,320
+Effects:,275
+Total:,595
+IP Packet Count:,698
+Avg Rate (kbps):,4.8
+
+==========BEST PRACTICES==========
+"Text File Compression","Warning"
+,"1","text file(s) above 850 bytes were sent without compression"
+,"16","kB of text files were sent without compression"
+"Duplicate Content","Pass"
+,"0","% duplicated TCP content"
+,"0","files"
+,"0","MBytes"
+"Cache Control","Warning"
+,"50","% of files missing cache headers"
+"Content Expiration","Pass"
+,"0","files downloaded multiple times while ""not expired"""
+,"0","files cached and 304 returned from server"
+"Content Pre-fetching","Pass"
+
+"Combine JS and CSS Requests","Pass"
+,"0","count of inefficient Css requests"
+,"0","count of inefficient Js requests"
+"Resize Images for Mobile","Pass"
+,"0","images larger than the area specified for them"
+"Minify CSS, JS, JSON and HTML","Fail"
+,"1","files to minify"
+"Use CSS Sprites for Images","Pass"
+,"0","Image file groups to be used a sprite"
+"Connection Opening","Self Test"
+
+"Unnecessary Connections - Multiple Simultaneous Connections","Fail"
+,"5","count of bursts more tightly grouped"
+"Inefficient Connections - Periodic Transfers","Pass"
+,"0","connections"
+,"0","# of repeats"
+,"0.0","s period of repeat"
+"Inefficient Connections - Screen Rotation","Pass"
+,"0","count of screen rotations"
+"Inefficient Connections - Connection Closing Problems","Fail"
+,"161","joules was used to control these connections"
+"Inefficient Connections - Offloading to WiFi when Possible","Pass"
+,"0","number of large bursts"
+"400, 500 HTTP Status Response Codes","Pass"
+
+"301, 302 HTTP Status Response Codes","Pass"
+
+"3rd Party Scripts","Pass"
+,"0","3rd party script files"
+"Asynchronous Load of JavaScript in HTML","Pass"
+,"0","HTML files that uses synchronous load of JavaScript in the HEAD."
+"HTTP 1.0 Usage","Pass"
+,"0","count of HTTP 1.0 headers"
+"File Order","Pass"
+,"0","HTML files which have JS loaded before CSS in the HEAD."
+"Empty Source and Link Attributes","Pass"
+,"0","empty HTML tag files"
+"FLASH","Pass"
+,"0","flash files"
+"""display:none"" in CSS","Fail"
+,"1","files with ""display:none"" CSS rule"
+"Accessing Peripheral Applications","Pass"
+,"0","% GPS"
+,"0","% Bluetooth"
+,"0","% Camera"
+
+============FILE TYPES=========
+,% of Data Transfer,Bytes
+Unknown,84.76061092585732%,102946
+text/html,14.241488617183318%,17297
+image/x-icon,0.9468527438145815%,1150
+image/gif,0.051047713144786136%,62
+
+============TRACE BENCHMARKING=========
+,Value,Percentile
+Avg Rate: (kbps),4.8112839726102266,23.58490566037736
+Energy Efficiency: (J/kb),1.3245570614585953,7.547169811320755
+Signaling Overhead:,0.0,98.11320754716981
+
+============CONNECTION STATISTICS============
+Proper session termination,63.1578947368421%
+Tightly grouped connection,11.363636363636363%
+Non-Periodic Burst connection,100.0%
+Large Burst connection,0.0%
+
+===== Trace Score =====
+Causes,
+Cache Control:,52,(out of 75)
+Connection Closing Problems:,52,(out of 75)
+Tightly Grouped Connections:,16,(out of 150)
+Periodic Transfers:,150,(out of 150)
+Content Expiration:,50,(out of 50)
+Cause Sub-total:,320,(out of 500)
+Effects,
+Duplicate Content:,125,(out of 125)
+Signaling Overhead:,122,(out of 125)
+Average Rate (kb/s):,14,(out of 62.5)
+Energy Efficiency (J/kb):,14,(out of 187.5)
+Effects Sub-total:,275,(out of 500)
+Total Score,595,(out of 1000)
+
+===== Endpoint Summary Per Application =====
+"Application Name","Packet Count","Total Bytes"
+"Unknown App","698","251736"
+
+
+===== Endpoint Summary Per IP Address =====
+"IP Address","Packet Count","Total Bytes"
+"174.35.56.230","1","52"
+"173.194.46.100","37","13947"
+"199.96.57.7","10","1383"
+"192.44.68.4","52","25784"
+"108.168.240.194","10","1851"
+"216.58.216.202","162","66654"
+"216.58.216.106","8","488"
+"216.58.216.232","12","744"
+"216.58.216.78","218","76350"
+"216.58.216.110","68","28369"
+"216.58.216.206","32","13089"
+"64.233.191.188","30","1800"
+"74.125.225.5","36","19865"
+"74.125.30.103","22","1360"
+
+
+===== RRC State Machine Simulation =====
+IDLE->Continuous Reception:,2.64 ,S,0.63% of time
+Continuous Reception:,25.62 ,S,6.12% of time
+Continuous Reception Tail:,23.25 ,S,5.55% of time
+Short DRX:,2.52 ,S,0.60% of time
+Long DRX:,269.43 ,S,64.32% of time
+IDLE:,118.67 ,S,28.33% of time
+Continuous Reception Tail Ratio:,0.91
+Long DRX Ratio:,0.01
+Short DRX Ratio:,0.64
+Promotion Ratio:,0.01
+
+
+===== Burst Analysis =====
+"Burst","Bytes","% of Bytes","Energy","% of Energy","Continuous Reception","% of Continuous Reception","JpKB"
+"TcpControl","0","0.0","161.04217776830865","48.29738704467755","4.23800058364881","16.5417672452053","0.0"
+"TcpLossRecoverOrDup","0","0.0","79.7705399521389","23.923599992383718","1.3999999999999915","5.464481112305187","0.0"
+"App","214193","99.9743288152048","85.07295822168284","25.513822820873866","19.87999844551119","77.59562572725217","0.04964737464388054"
+"ServerNetDelay","55","0.025671184795190618","7.553020481211089","2.2651901420648546","0.10199985504152664","0.3981259152373519","17.16595573213163"
+
+===== Individual Burst Analysis =====
+"Start Time","Time Elapsed","Bytes","Packet Count","Burst"
+"0.2539999485015869","0.10600018501281738","0","4","TcpControl"
+"7.680999994277954","12.266000032424927","74917","214","App"
+"24.579999923706055","2.1050000190734863","0","4","TcpLossRecoverOrDup"
+"36.12700009346008","0.0","0","1","TcpLossRecoverOrDup"
+"38.24399995803833","0.0","0","1","TcpLossRecoverOrDup"
+"40.449000120162964","0.0","0","1","TcpLossRecoverOrDup"
+"43.17199993133545","0.0","0","1","TcpLossRecoverOrDup"
+"57.104000091552734","0.10500001907348633","0","6","TcpControl"
+"59.21399998664856","0.0","0","1","TcpLossRecoverOrDup"
+"63.82299995422363","0.0","0","1","TcpLossRecoverOrDup"
+"68.03500008583069","0.0","0","1","TcpLossRecoverOrDup"
+"79.06200003623962","0.0","0","1","TcpLossRecoverOrDup"
+"105.42900013923645","0.0","0","1","TcpLossRecoverOrDup"
+"115.25399994850159","0.0","0","1","TcpLossRecoverOrDup"
+"119.36199998855591","2.8550000190734863","41692","94","App"
+"146.29999995231628","10.499000072479248","39780","88","App"
+"158.40199995040894","5.93500018119812","9803","47","App"
+"166.3420000076294","9.999275207519531E-4","0","2","TcpControl"
+"170.75200009346008","0.0","0","2","TcpControl"
+"174.6619999408722","1.8070001602172852","0","10","TcpControl"
+"178.47300004959106","1.9059998989105225","0","6","TcpControl"
+"183.28600001335144","0.002000093460083008","0","4","TcpControl"
+"186.7940001487732","0.8039999008178711","0","6","TcpControl"
+"189.10000014305115","0.5039999485015869","0","8","TcpControl"
+"191.50699996948242","0.0010001659393310547","0","4","TcpControl"
+"193.21099996566772","0.0010001659393310547","0","2","TcpControl"
+"199.22099995613098","0.002000093460083008","0","2","TcpControl"
+"209.54800009727478","4.026000022888184","6608","33","App"
+"232.83100008964539","1.9110000133514404","0","8","TcpControl"
+"236.65100002288818","0.0","0","2","TcpControl"
+"240.15899991989136","0.0010001659393310547","0","2","TcpControl"
+"247.875","0.0","0","2","TcpControl"
+"257.79500007629395","0.0","0","2","TcpControl"
+"268.0169999599457","0.0010001659393310547","0","2","TcpControl"
+"278.4520001411438","0.0","0","2","TcpControl"
+"288.0680000782013","0.006999969482421875","0","2","TcpControl"
+"293.6819999217987","0.0010001659393310547","0","2","TcpControl"
+"295.6870000362396","0.0","0","2","TcpControl"
+"297.5920000076294","0.0","0","2","TcpControl"
+"300.19900012016296","9.999275207519531E-4","0","2","TcpControl"
+"363.63300013542175","0.10099983215332031","0","3","TcpControl"
+"396.9130001068115","0.10399985313415527","0","9","TcpControl"
+"401.3270001411438","0.0019998550415039062","55","5","ServerNetDelay"
+"408.239000082016","10.590999841690063","41393","105","App"
+
+
+----------- Cacheable vs. non-cacheable ------------,%responses,%bytes,
+Cacheable:,75.0,94.9,
+Specified - No Store:,25.0,5.1,
+
+
+----------- Cache simulation results ------------,,
+----------- Acceptable Behavior ------------,,
+Files downloaded once:,75.0,94.9,
+Files specified as "No-Store":,25.0,5.1,
+Expired but correct 304 response sent from server:,0.0,0.0,
+Expired downloaded again but file has changed:,0.0,0.0,
+----------- Duplicate File Download ------------,,
+Duplicate download (not expired):,0.0,0.0,
+Duplicate download (expired but no "If-Modified-Since" header sent):,0.0,0.0,
+Duplicate download (expired but "If-Modified-Since" header ignored):,0.0,0.0,
+-------------- Duplicate File Download: Streaming------------------,,
+Partial duplicate download (Not Expired):,0.0,0.0,
+Partial duplicate download (expired but no "If-Modified-Since" header sent):,0.0,0.0,
+Partial duplicate download (expired but "If-Modified-Since" header ignored):,0.0,0.0,
+
+
+----------- Duplicate File Analysis------------,,
+Duplicate download (Cache not expired):,0.0,0.0,
+Duplicate download (24 hr cache not expired):,0.0,0.0,
+Duplicate download (Cache expired):,0.0,0.0,
+Duplicate download (24 hr cache expired):,0.0,0.0,
+
+
+===== Energy Efficiency Simulation =====
+IDLE->Continuous Reception:,3.20 ,J
+Continuous Reception:,31.02 ,J
+Continuous Reception Tail:,27.90 ,J
+Short DRX:,2.83 ,J
+Long DRX:,293.95 ,J
+IDLE:,2.45 ,J
+Total RRC Energy:,333.44 ,J
+Joules per Kilobyte:,1.32
+GPS Active:,0.00 ,J
+GPS Standby:,8.38 ,J
+Total GPS Energy:,8.38 ,J
+Total Camera Energy:,0.00 ,J
+Bluetooth Active:,0.00 ,J
+Bluetooth Standby:,0.00 ,J
+Total Bluetooth Energy:,0.00 ,J
+Total Screen Energy:,242.95 ,J
