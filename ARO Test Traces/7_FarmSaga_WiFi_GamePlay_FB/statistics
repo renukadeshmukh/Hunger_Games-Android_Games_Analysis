@@ -1,0 +1,208 @@
+======TRACE SUMMARY=========
+Date:Apr 28 2015 7:12:56 PM
+Trace:FS_WiFi_FB
+Application(s) Name : Version:,Unknown App
+,
+Data Collector Version:1.0.0.1
+Device Make/Model:samsung / SAMSUNG-SGH-I727
+OS/Platform Version:4.3.1
+Network Type(s):WIFI
+Profile:AT&T 3G
+HTTPS data not analyzed:,99.74%,(516.28 KB)
+Duration:,7.3,Minutes
+Total Data Transferred: ,530049,Bytes
+Energy Consumed:,421.4,J (Energy)
+Trace Score,
+Causes:,359
+Effects:,333
+Total:,692
+IP Packet Count:,924
+Avg Rate (kbps):,5.2
+
+==========BEST PRACTICES==========
+"Text File Compression","Pass"
+,"0","text file(s) above 850 bytes were sent without compression"
+,"0","kB of text files were sent without compression"
+"Duplicate Content","Pass"
+,"0","% duplicated TCP content"
+,"0","files"
+,"0","MBytes"
+"Cache Control","Pass"
+,"0","% of files missing cache headers"
+"Content Expiration","Pass"
+,"0","files downloaded multiple times while ""not expired"""
+,"0","files cached and 304 returned from server"
+"Content Pre-fetching","Pass"
+
+"Combine JS and CSS Requests","Pass"
+,"0","count of inefficient Css requests"
+,"0","count of inefficient Js requests"
+"Resize Images for Mobile","Pass"
+,"0","images larger than the area specified for them"
+"Minify CSS, JS, JSON and HTML","Pass"
+,"0","files to minify"
+"Use CSS Sprites for Images","Pass"
+,"0","Image file groups to be used a sprite"
+"Connection Opening","Self Test"
+
+"Unnecessary Connections - Multiple Simultaneous Connections","Pass"
+,"1","count of bursts more tightly grouped"
+"Inefficient Connections - Periodic Transfers","Pass"
+,"1","connections"
+,"1","# of repeats"
+,"0.0","s period of repeat"
+"Inefficient Connections - Screen Rotation","Pass"
+,"0","count of screen rotations"
+"Inefficient Connections - Connection Closing Problems","Pass"
+
+"Inefficient Connections - Offloading to WiFi when Possible","Pass"
+,"0","number of large bursts"
+"400, 500 HTTP Status Response Codes","Pass"
+
+"301, 302 HTTP Status Response Codes","Pass"
+
+"3rd Party Scripts","Pass"
+,"0","3rd party script files"
+"Asynchronous Load of JavaScript in HTML","Pass"
+,"0","HTML files that uses synchronous load of JavaScript in the HEAD."
+"HTTP 1.0 Usage","Pass"
+,"0","count of HTTP 1.0 headers"
+"File Order","Pass"
+,"0","HTML files which have JS loaded before CSS in the HEAD."
+"Empty Source and Link Attributes","Pass"
+,"0","empty HTML tag files"
+"FLASH","Pass"
+,"0","flash files"
+"""display:none"" in CSS","Pass"
+,"0","files with ""display:none"" CSS rule"
+"Accessing Peripheral Applications","Pass"
+,"0","% GPS"
+,"0","% Bluetooth"
+,"0","% Camera"
+
+============FILE TYPES=========
+,% of Data Transfer,Bytes
+Unknown,100.0%,152080
+
+============TRACE BENCHMARKING=========
+,Value,Percentile
+Avg Rate: (kbps),5.186047720929631,23.58490566037736
+Energy Efficiency: (J/kb),0.5060360917401441,25.471698113207548
+Signaling Overhead:,0.03907469725188509,79.24528301886792
+
+============CONNECTION STATISTICS============
+Proper session termination,100.0%
+Tightly grouped connection,6.666666666666667%
+Non-Periodic Burst connection,93.33333333333333%
+Large Burst connection,0.0%
+
+===== Trace Score =====
+Causes,
+Cache Control:,75,(out of 75)
+Connection Closing Problems:,75,(out of 75)
+Tightly Grouped Connections:,9,(out of 150)
+Periodic Transfers:,150,(out of 150)
+Content Expiration:,50,(out of 50)
+Cause Sub-total:,359,(out of 500)
+Effects,
+Duplicate Content:,125,(out of 125)
+Signaling Overhead:,99,(out of 125)
+Average Rate (kb/s):,14,(out of 62.5)
+Energy Efficiency (J/kb):,47,(out of 187.5)
+Effects Sub-total:,285,(out of 500)
+Total Score,644,(out of 1000)
+
+===== Endpoint Summary Per Application =====
+"Application Name","Packet Count","Total Bytes"
+"Unknown App","924","262384"
+
+
+===== Endpoint Summary Per IP Address =====
+"IP Address","Packet Count","Total Bytes"
+"75.75.75.75","14","1354"
+"185.48.81.243","89","25772"
+"217.212.243.226","795","228645"
+"184.50.238.249","26","6613"
+
+
+===== RRC State Machine Simulation =====
+DCH (Active):,79.11 ,S,17.98%
+FACH (Standby):,62.60 ,S,14.23%
+IDLE:,282.52 ,S,64.21%
+IDLE->DCH (Active):,13.05 ,S,2.96%
+FACH (Standby)->DCH (Active):,2.75 ,S,0.62%
+DCH (Active) Tail Ratio:,0.40
+FACH (Standby) Tail Ratio:,0.96
+Promotion Ratio:,0.04
+
+
+===== Burst Analysis =====
+"Burst","Bytes","% of Bytes","Energy","% of Energy","DCH (Active)","% DCH (Active)","JpKB"
+"App","208987","97.88068117951217","122.8000999689102","92.81935538806663","75.11100006103516","94.94381312723395","0.0734496046738689"
+"Periodical","4525","2.1193188204878415","9.5","7.180644611933359","4.0","5.056186872766048","0.26243093369561016"
+
+===== Individual Burst Analysis =====
+"Start Time","Time Elapsed","Bytes","Packet Count","Burst"
+"20.943000078201294","4.168999910354614","51404","172","App"
+"30.467000007629395","5.04800009727478","24428","113","App"
+"37.384000062942505","1.7219998836517334","8404","35","App"
+"41.318000078201294","8.585999965667725","32013","146","App"
+"53.47500014305115","2.8269999027252197","15433","75","App"
+"59.01699995994568","0.9070000648498535","4268","20","App"
+"62.43600010871887","0.8199999332427979","4525","20","App"
+"95.44700002670288","0.806999921798706","4525","20","Periodical"
+"160.51699995994568","1.2080001831054688","4627","22","App"
+"177.53900003433228","7.860000133514404","23131","108","App"
+"187.68799996376038","0.8080000877380371","4410","20","App"
+"289.44900012016296","0.8039999008178711","4525","20","App"
+"295.989000082016","4.865999937057495","23064","111","App"
+"302.7699999809265","0.9090001583099365","4410","20","App"
+"423.875","1.2170000076293945","4345","22","App"
+
+
+----------- Cacheable vs. non-cacheable ------------,%responses,%bytes,
+Cacheable:,0.0,0.0,
+Specified - No Store:,0.0,0.0,
+
+
+----------- Cache simulation results ------------,,
+----------- Acceptable Behavior ------------,,
+Files downloaded once:,0.0,0.0,
+Files specified as "No-Store":,0.0,0.0,
+Expired but correct 304 response sent from server:,0.0,0.0,
+Expired downloaded again but file has changed:,0.0,0.0,
+----------- Duplicate File Download ------------,,
+Duplicate download (not expired):,0.0,0.0,
+Duplicate download (expired but no "If-Modified-Since" header sent):,0.0,0.0,
+Duplicate download (expired but "If-Modified-Since" header ignored):,0.0,0.0,
+-------------- Duplicate File Download: Streaming------------------,,
+Partial duplicate download (Not Expired):,0.0,0.0,
+Partial duplicate download (expired but no "If-Modified-Since" header sent):,0.0,0.0,
+Partial duplicate download (expired but "If-Modified-Since" header ignored):,0.0,0.0,
+
+
+----------- Duplicate File Analysis------------,,
+Duplicate download (Cache not expired):,0.0,0.0,
+Duplicate download (24 hr cache not expired):,0.0,0.0,
+Duplicate download (Cache expired):,0.0,0.0,
+Duplicate download (24 hr cache expired):,0.0,0.0,
+
+
+===== Energy Efficiency Simulation =====
+DCH (Active):,102.84 ,J
+FACH (Standby):,18.78 ,J
+IDLE:,0.00 ,J
+IDLE->DCH (Active):,8.48 ,J
+FACH (Standby)->DCH (Active):,2.20 ,J
+DCH (Active) Tail:,41.60 ,J
+FACH (Standby) Tail:,18.00 ,J
+Total RRC Energy:,132.30 ,J
+Joules per Kilobyte:,0.51
+GPS Active:,0.00 ,J
+GPS Standby:,8.80 ,J
+Total GPS Energy:,8.80 ,J
+Total Camera Energy:,0.00 ,J
+Bluetooth Active:,0.00 ,J
+Bluetooth Standby:,0.00 ,J
+Total Bluetooth Energy:,0.00 ,J
+Total Screen Energy:,280.27 ,J
